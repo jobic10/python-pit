@@ -1,9 +1,5 @@
 def check(string):
-    string = list(string)
-    pal = []
-    for i in string[::-1]:
-        pal.append(i)
-    if pal == string:
+    if string[::-1] == string:
         return True
     else:
         return False
